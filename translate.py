@@ -20,7 +20,6 @@ def take_input():
                 with open(sys.argv[1], encoding = 'utf-8') as f:
                     inp = f.read()
                     inp = inp.replace("\n","  ")
-                    print(inp)
             else:
                 inp = str(sys.argv[1])
             
